@@ -12,5 +12,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2022-02-25
  */
 public interface UserService extends IService<User> {
-
+    public boolean geScore(Integer userId, Integer score);
+    public Integer getScore(Integer userId);
 }

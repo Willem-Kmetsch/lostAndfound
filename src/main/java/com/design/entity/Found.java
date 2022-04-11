@@ -33,6 +33,8 @@ public class Found implements Serializable {
 
     private Integer type;
 
+    private String school;
+
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private LocalDateTime foundtime;
 
@@ -43,6 +45,12 @@ public class Found implements Serializable {
     private String picture;
 
     private String itemexplain;
+
+    private Integer state;
+
+    private Integer ownerid;
+
+    private Integer score;
 
 
 }

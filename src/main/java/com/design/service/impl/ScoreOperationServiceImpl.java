@@ -4,6 +4,7 @@ import com.design.entity.ScoreOperation;
 import com.design.mapper.ScoreOperationMapper;
 import com.design.service.ScoreOperationService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
